@@ -90,11 +90,13 @@ callouts:
 # Define the collections
 # example: collection with name "src" reside in the "_src" directory
 collections:
-  jtd_docs:
-    output: true
   src: 
     output: true
+  jtd_docs:
+    output: true
   posts:
+    output: true
+  references: 
     output: true
 # Define which collections are used in just-the-docs
 just_the_docs:
