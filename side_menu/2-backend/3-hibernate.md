@@ -1,7 +1,9 @@
 ---
 layout: page
+parent: Backend Development
 title: Hibernate
 permalink: /hibernate
+nav_order: 3
 ---
 
 - TOC

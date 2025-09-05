@@ -8,6 +8,7 @@ This repo is a template to create new repository based on jekyll for github page
 - [Troubleshooting](#troubleshooting)
   - [Port already used](#port-already-used)
 - [Useful git commands](#useful-git-commands)
+- [Table of contents](#table-of-contents)
 
 
 # Getting started
@@ -39,4 +40,17 @@ kill -9 <PROCESS_ID>
 git fetch --all -p; git pull; git status;
 git merge origin/main;
 git push;
+```
+
+# Table of contents
+
+```md
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 ```
