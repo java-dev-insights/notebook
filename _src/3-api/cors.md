@@ -1,7 +1,9 @@
 ---
 layout: page
 title: CORS
-permalink: /cors
+permalink: /cors/
+# parent: APIs & Microservices
+# nav_order: 2
 ---
 
 # CORS 

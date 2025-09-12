@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Callouts
-nav_order: 16
 permalink: /jtd/callouts
+nav_order: 16
 ---
 
 <details open markdown="block">

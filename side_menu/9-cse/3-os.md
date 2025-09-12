@@ -1,12 +1,14 @@
 ---
 layout: page
-parent: Computer Science Core
 title: Operating Systems
-nav_order: 3
 permalink: /os/
+parent: Computer Science Core
+nav_order: 3
 ---
 
-# Operating Systems
+# {{page.title}}
+
+---
 
 <details open markdown="block">
   <summary>

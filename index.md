@@ -5,17 +5,18 @@ nav_order: -10
 ---
 
 🌐 **Frontend Development**
-- Basic - [HTML](html), [CSS](css), [Javascript](js), [SASS](sass)
+- Basic - [HTML](html), [CSS](css), [Javascript](js)
 - CSS Frameworks - [Bootstrap](bootstrap)
-- Frameworks - [Vue.js](vue), [Angular](angular)
-- Testing - [Jest](jest)
-- libraries - webpack, node.js
+- CSS Preprocessors - [SASS](sass), TypeScript 
+- Frameworks - [Vue.js](vue), [Angular](angular), node.js
+- Testing - [Jest](jest), [Vue Test Utils](https://test-utils.vuejs.org/guide/){:target="_blank"}
+- Module Bundler - webpack, vite
 
 📙 **Backend Development (Java Ecosystem)**
 
-- ☕ [Java](java/)
-- ☘️ [Spring](spring/)
-- JPA - [Hibernate](hibernate/)
+- Language - ☕ [Java](java/)
+- Framework - ☘️ [Spring](spring/)
+- JPA - [Hibernate (ORM)](hibernate/)
 - Testing - [JUnit](junit), Mockito, [Cucumber](cucumber)
 - Libraries - Object Mapper, [JSON](json)/[XML](xml), [Lombok](lombok), [Logger (SLF4J)](logger), Feign
 - API Docs - Swagger
@@ -57,7 +58,6 @@ nav_order: -10
 - Logs
 
 📚 **Software Engineering Concepts**
-- Design Patterns
 - Software Architecture
 - Testing Strategies
 - Object-Oriented Principles
@@ -86,7 +86,8 @@ nav_order: -10
 - NoSQL - Mongo, Couchbase DB, Casandra, Elastisearch
 - Graph - Neo4j, ArangoDB
 
-> Cross-linking posts via tags like `#spring`, `#auth`, `#monitoring`.
+**Markdown**
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/){:target="_blank"}
 
 
 💁 **Contributors**

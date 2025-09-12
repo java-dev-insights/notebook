@@ -1,12 +1,14 @@
 ---
 layout: page
-parent: Computer Science Core
 title: Algorithms
-nav_order: 2
 permalink: /algo/
+parent: Computer Science Core
+nav_order: 2
 ---
 
-# Algorithms
+# {{page.title}}
+
+---
 
 <details open markdown="block">
   <summary>

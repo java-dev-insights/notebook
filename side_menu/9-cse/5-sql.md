@@ -1,12 +1,12 @@
 ---
 layout: page
-parent: Computer Science Core
 title: SQL
-nav_order: 4
 permalink: /sql/
+parent: Computer Science Core
+nav_order: 4
 ---
 
-# SQL
+# {{page.title}}
 
 <details open markdown="block">
   <summary>

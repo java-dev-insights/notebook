@@ -1,9 +1,25 @@
 ---
 layout: page
 title: References
-permalink: /references
-nav_order: 1
+permalink: /references-10
+nav_order: 10
 ---
+
+# {{page.title}}
+
+---
+
+<!-- <details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+--- -->
+
 
 **Blogs to follow** - [12 Factor App]{:target="_blank"}, [Microsoft Documentation]{:target="_blank"}, [microservices.io]{:target="_blank"}, [baeldung]{:target="_blank"}
 
@@ -69,4 +85,3 @@ nav_order: 1
 
 
 - markdown - [extended syntax](https://www.markdownguide.org/extended-syntax/#:~:text=To%20strikethrough%20words%2C%20use%20two,before%20and%20after%20the%20words.){:target="_blank"}
-- [Keep Learning](keep-learning)

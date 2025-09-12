@@ -9,7 +9,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-
 # Build settings
 remote_theme: just-the-docs/just-the-docs
 plugins:
@@ -40,6 +39,8 @@ aux_links:
     - "https://www.udemy.com"
   "levels.fyi":
     - "https://www.levels.fyi/en-gb/t/software-engineer/locations/united-kingdom"
+  "Channel":
+    - "https://www.youtube.com/@java-developer-insight"
 
 
 # Enable or disable the side/mobile menu globally
@@ -113,3 +114,8 @@ just_the_docs:
       name: Posts 
       nav_exclude: false
       nav_fold: true
+    references:
+      name: References 
+      nav_exclude: false
+      nav_fold: true
+

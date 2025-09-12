@@ -1,12 +1,14 @@
 ---
 layout: page
-parent: Computer Science Core
 title: Data Structures
+permalink: /ds
+parent: Computer Science Core
 nav_order: 1
-permalink: /ds/
 ---
 
-# Data Structures
+# {{page.title}}
+
+---
 
 <details open markdown="block">
   <summary>

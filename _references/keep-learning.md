@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Keep Learning
-nav_order: 4
 permalink: /references/keep-learning
 ---
 

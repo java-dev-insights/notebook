@@ -1,14 +1,15 @@
 ---
 layout: page
-parent: Computer Science Core
 title: DBMS
-nav_order: 4
 permalink: /dbms/
+parent: Computer Science Core
+nav_order: 4
 ---
 
-# DBMS 
-
+# {{page.title}}
 Database Management System
+
+---
 
 <details open markdown="block">
   <summary>

@@ -1,12 +1,12 @@
 ---
 layout: page
-parent: Computer Science Core
 title: Computer Networks
-nav_order: 6
 permalink: /networks/
+parent: Computer Science Core
+nav_order: 6
 ---
 
-# Computer Networks
+# {{page.title}}
 
 <details open markdown="block">
   <summary>

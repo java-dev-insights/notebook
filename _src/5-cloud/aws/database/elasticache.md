@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RDS
-permalink: /aws/rds
+permalink: /aws/elasticache
 ---
 
 - TOC
