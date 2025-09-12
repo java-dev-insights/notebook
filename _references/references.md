@@ -1,7 +1,7 @@
 ---
 layout: page
 title: References
-permalink: /references
+permalink: /references/
 nav_order: 1
 ---
 

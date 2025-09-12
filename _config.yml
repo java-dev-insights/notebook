@@ -115,7 +115,7 @@ just_the_docs:
       nav_exclude: false
       nav_fold: true
     references:
-      name: References 
+      name: Refs 
       nav_exclude: false
       nav_fold: true
 
