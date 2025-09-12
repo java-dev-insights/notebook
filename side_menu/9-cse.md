@@ -3,6 +3,7 @@ layout: page
 title: Computer Science Core
 permalink: /cse
 nav_order: 9
+has_toc: false
 ---
 
 # {{page.title}}
