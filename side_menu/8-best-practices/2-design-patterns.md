@@ -2,8 +2,8 @@
 layout: page
 title: Design Patterns
 permalink: /design-patterns/
-# parent: Best Practices
-# nav_order: 2
+parent: Best Practices
+nav_order: 2
 ---
 
 # {{page.title}}

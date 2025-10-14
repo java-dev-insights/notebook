@@ -3,6 +3,7 @@ layout: page
 title: Best Practices
 permalink: /best-practices
 nav_order: 8
+has_toc: false
 ---
 
 # {{page.title}}

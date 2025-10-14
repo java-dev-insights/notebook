@@ -2,8 +2,8 @@
 layout: page
 title: Clean Code
 permalink: /clean-code/
-# parent: Best Practices
-# nav_order: 1
+parent: Best Practices
+nav_order: 1
 ---
 
 # Clean Code 
