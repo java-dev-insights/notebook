@@ -9,7 +9,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-
 # Build settings
 remote_theme: just-the-docs/just-the-docs
 plugins:
@@ -20,8 +19,10 @@ plugins:
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-2000.jpg?auto=webp&quality=75&width=980&dpr=2
+# logo: /assets/logo/logo-arpit04tripathi.jpeg
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: https://cdn.thewirecutter.com/wp-content/media/2020/11/notebooks-2048px-1996.jpg?auto=webp&quality=75&width=980&dpr=2
+cdn: https://raw.githubusercontent.com/arpit04tripathi/cdn/main/notebook
 
 # color_scheme: dark # supports "light" (default) and "dark"
 
@@ -38,6 +39,8 @@ aux_links:
     - "https://www.udemy.com"
   "levels.fyi":
     - "https://www.levels.fyi/en-gb/t/software-engineer/locations/united-kingdom"
+  "Channel":
+    - "https://www.youtube.com/@java-developer-insight"
 
 
 # Enable or disable the side/mobile menu globally
@@ -49,6 +52,10 @@ nav_external_links:
     url: https://roadmap.sh/
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: Baeldung
+    url: https://www.baeldung.com/spring-tutorial
+    hide_icon: false
+    opens_in_new_tab: true
 
 
 # Exclude from processing: The following items will not be processed, by default.
@@ -84,11 +91,13 @@ callouts:
 # Define the collections
 # example: collection with name "src" reside in the "_src" directory
 collections:
-  jtd_docs:
-    output: true
   src: 
     output: true
+  jtd_docs:
+    output: true
   posts:
+    output: true
+  references: 
     output: true
 # Define which collections are used in just-the-docs
 just_the_docs:
@@ -105,3 +114,8 @@ just_the_docs:
       name: Posts 
       nav_exclude: false
       nav_fold: true
+    references:
+      name: Refs 
+      nav_exclude: false
+      nav_fold: true
+
