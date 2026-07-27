@@ -9,56 +9,14 @@ permalink: /java/jvm-architecture
 
 ---
 
-
-
-# JVM - Java Virtual Machine
-
-## Architecture
-
-
-
-
-
-## ClassLoader Subsystem
-
-
-
-
-<!-- ## JIT Compiler
-
-> Read full article on [JIT Compiler](http://cavermartin.blogspot.com/2017/10/jit-compiler.html){target="_blank"}
-
-- To improve the performance. 
-- Compiles parts of byte code having similar functionality at same time reducing compilation-time.
-- Compiler here refers to translator for instruction sets of JVM to that of a specific CPU.
-
-![jit-compilation]({{site.cdn}}/java/jvm-architecture/jit-compilation.jpg) -->
-
-<!-- ## How Java Code Runs
-
-![how-java-code-runs]({{site.cdn}}/java/jvm-architecture/how-java-code-runs.png) -->
-
 # JMM - Java Memory Model
 
-![java-memory-model]({{site.cdn}}/java/jvm-architecture/java-memory-model.png)
-![jmm-diagram]({{site.cdn}}/java/jvm-architecture/jmm-diagram.png)
-
-- JVM Heap memory is divided into two parts – **Young Generation** and **Old Generation**.
-
 ## Young Generation
-- **Eden Memory** and **two Survivor Memory spaces (S0 and S1)**
-- **Eden Memory**
-  - Most of the newly created objects.
-  - **Minor GC** is performed when Eden space is filled and survivor objects are moved to S0.
-  - Minor GC also checks S0 and move them to S1.
-  - So, at a time one of the survivor space is always empty.
-- Objects that survived after many cycles of GC, are moved to the Old generation memory space.
-- A threshold is set for the age of the young generation objects to become eligible for promotion to Old generation.
 
 ## Old Generation
-* Contains objects that are long lived and survived after many rounds of Minor GC. 
-* Usually garbage collection is performed in Old Generation memory when it’s full.
-* Old Generation Garbage Collection is called **Major GC** and usually takes longer time.
+- Contains objects that are long lived and survived after many rounds of Minor GC. 
+- Usually garbage collection is performed in Old Generation memory when it’s full.
+- Old Generation Garbage Collection is called **Major GC** and usually takes longer time.
 
 ### Stop the World Event
 - All the Garbage Collections are “Stop the World” events as all application threads are stopped until operation completes.
